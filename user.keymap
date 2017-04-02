@@ -27,7 +27,6 @@
  [:editor "cmd-d" :editor.sublime.duplicateLine]
  [:editor "cmd-backspace" [:editor.delete-line (:filter-list.input.move-selection 1)]]
 
-
  ;; To subtract a keybinding, prefix the key with '-'  e.g.
  ;;  [:app "-ctrl-shift-d" :docs.search.show]
 ]
